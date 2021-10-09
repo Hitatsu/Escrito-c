@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1500
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escrito c", "Escrito c\Escrito c.csproj", "{8AE113BD-0B2F-43B5-9E17-3CB3665855B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDeDatos", "Escrito c\CapaDeDatos.csproj", "{8AE113BD-0B2F-43B5-9E17-3CB3665855B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "Capa Logica\CapaLogica.csproj", "{99BDCC76-99C7-4872-87CC-02106DA9D50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaVisual", "Capa Visual\CapaVisual.csproj", "{AE9CA199-C657-46CC-8C39-450C468D6AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8AE113BD-0B2F-43B5-9E17-3CB3665855B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE113BD-0B2F-43B5-9E17-3CB3665855B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE113BD-0B2F-43B5-9E17-3CB3665855B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BDCC76-99C7-4872-87CC-02106DA9D50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BDCC76-99C7-4872-87CC-02106DA9D50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BDCC76-99C7-4872-87CC-02106DA9D50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BDCC76-99C7-4872-87CC-02106DA9D50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9CA199-C657-46CC-8C39-450C468D6AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9CA199-C657-46CC-8C39-450C468D6AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9CA199-C657-46CC-8C39-450C468D6AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9CA199-C657-46CC-8C39-450C468D6AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
