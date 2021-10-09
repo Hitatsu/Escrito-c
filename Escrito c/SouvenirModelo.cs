@@ -23,7 +23,7 @@ namespace CapaDeDatos
             this.comando.ExecuteNonQuery();
         }
 
-        private void GuardarSouvenir()
+        public void GuardarSouvenir()
         {
             this.comando.CommandText = "INSERT INTO souvenir (id,nombre,descripcion,stock,precio,fechadealta) VALUES(@id,@nombre,@descripcion,@stock,@precio,@fechadealta);";
 
@@ -38,7 +38,7 @@ namespace CapaDeDatos
             EjecutarQuery();
         }
 
-        private void BorrarSouvenir()
+        public void BorrarSouvenir()
         {
             this.comando.CommandText = "DELETE souvenir WHERE nombre=@nombre;";
             this.comando.Parameters.AddWithValue("nombre", this.Nombre);

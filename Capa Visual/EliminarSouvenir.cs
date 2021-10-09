@@ -11,18 +11,18 @@ using Capa_Logica;
 
 namespace Capa_Visual
 {
-    public partial class AgregarSouvenir : Form
+    public partial class EliminarSouvenir : Form
     {
-        public AgregarSouvenir()
+        public EliminarSouvenir()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Eliminar_Click(object sender, EventArgs e)
         {
-            SouvenirController.AltaSouvenir(int.Parse(Nombre.Text), Nombre.Text, Descripcion.Text, Stock.Text, Precio.Text, FechaDeAlta.Text);
+            SouvenirController.BajaSouvenir(Nombre.Text);
 
-            MessageBox.Show("Fue agregado el souvenir");
+            MessageBox.Show("Souvenir eliminado");
 
             this.Close();
         }

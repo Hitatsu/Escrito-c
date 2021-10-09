@@ -21,12 +21,19 @@ namespace Capa_Logica
             s.FechaDeAlta = fechadealta;
         }
 
-        public static void BajaSouvenir(int id)
+        public static void BajaSouvenir(string nombre)
+        {
+            SouvenirModelo s = new SouvenirModelo();
+            s.Nombre = nombre;
+            s.BorrarSouvenir();
+        }
+
+        public static void ActualizarSouvenir(int id,string stock,string precio)
         {
             SouvenirModelo s = new SouvenirModelo();
             s.Id = id;
-            s.BorrarSouvenir();
-
+            s.Stock = stock;
+            s.Precio = precio;
         }
     }
 }
